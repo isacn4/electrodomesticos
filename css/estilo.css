@@ -30,6 +30,15 @@ h2{
     font-weight: 200;
 }
 
+.encabezado__box--white{
+/*width: 96%;*/
+text-align: center;
+background-color: white;
+padding: 4px 0px;
+margin: 6px 6px;
+border: solid black 0.6px;
+}
+
 .botonera{
     width: 96%;
     background-color: #D1F2CA;
@@ -66,3 +75,4 @@ font-weight: 400;
 /*border: solid 1px grey;*/
 text-decoration: underline;
 }
+
