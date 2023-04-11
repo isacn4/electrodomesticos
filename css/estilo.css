@@ -278,3 +278,44 @@ overflow: auto;
     font-size: 1.6rem;
     font-weight: 200;
 }
+/*grid*/
+.contenedor{
+    width: 100%;
+    margin: 0px;
+    padding: 2px auto;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 4, auto;
+    grid-template-areas: 
+    "nav nav"
+    "header header"
+    "productos aside"
+    "footer footer";
+    column-gap: 10px;
+    grid-row-gap: 10px;
+}
+#nav{
+    grid-area: nav;
+}
+#header{
+    grid-area: header;
+}
+#productos{
+    grid-area: productos;
+}
+#aside{
+    grid-area: aside;
+}
+#filtros{
+    grid-area: filtros;
+}
+#formulario{
+    grid-area: formulario;
+}
+#mapa{
+    grid-area: mapa;
+}
+#footer{
+    grid-area: footer;
+}
+
