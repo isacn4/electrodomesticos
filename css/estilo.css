@@ -218,6 +218,30 @@ overflow: auto;
     justify-content: center;
 }
 
+/*formulario*/
+.formulariodiv{
+    /*border: solid 1px black;*/
+    margin: 10px 2px;
+   /* display: flex;
+    justify-content: flex-start;*/
+}
+
+.formulariodivb{
+    margin: 6px 2px;
+    display: flex;
+    flex-direction: row;
+}
+.formulariotexto{
+    margin: 6px 2px;
+}
+
+.bgClaro{
+ background-color: white;
+ border: solid black 1px;
+ margin: 10px;
+ padding: 10px;
+}
+
 /*aside*/
 .asidediv{
     width: 90%;
