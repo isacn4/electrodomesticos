@@ -862,3 +862,83 @@ overflow: auto;
     margin: 8px;
     justify-content: space-around;
 }
+
+.contenedorb{
+    width: 98%;
+    margin: 0px 6px;
+    padding: 2px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5, auto;
+    grid-template-areas:
+    "nav nav"
+    "filtros filtros"
+    "productos productos"
+    "aside aside"
+    "footer footer";
+    }
+
+.filtrosdiv{
+    width: 96%;
+    height: 160px;
+    color: black;
+    padding: 6px;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 6px 4px;
+    align-items: center;
+
+}
+
+.maincontenedor{
+    width: 96%;
+    padding: 6px;
+    border: solid black 0.6px;
+    margin: 6px 4px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.maincajaa{
+    width: 80%;
+    height: 70%;
+    margin: 2px;
+    border: solid black 0.6px;
+    padding: 2px;
+}
+
+.maincajab{
+    width: 80%;
+    height: 80%;
+    margin: 6px;
+    border: solid black 0.6px;
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.maincajac{
+    width: 40%;
+    height: 60%;
+    margin: 6px 2px;
+    border: solid black 0.6px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.productosdestacados-divb img{
+    width: 30%;
+    height: 80px;
+    margin: 10px 60px;
+    border: solid black 0.6px;
+    justify-content: center;
+}
+
