@@ -156,3 +156,17 @@ overflow: auto;
     font-size: 1.2rem;
 }
 
+/*filtros*/
+.filtrosdiv{
+    /*width: 90%;*/
+    color: black;
+    padding: 10px;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 2px;
+    align-items: center;
+}
