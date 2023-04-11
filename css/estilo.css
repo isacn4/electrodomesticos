@@ -294,6 +294,37 @@ overflow: auto;
     column-gap: 10px;
     grid-row-gap: 10px;
 }
+
+.contenedorb{
+    width: 100%;
+    margin: 0px;
+    padding: 2px auto;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 3, auto;
+    grid-template-areas: 
+    "nav nav nav"
+    "filtros productos aside"
+    "footer footer footer";
+    column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.contenedorc{
+    width: 100%;
+    margin: 0px;
+    padding: 2px auto;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 3, auto;
+    grid-template-areas: 
+    "nav nav"
+    "formulario formulario"
+    "footer footer";
+    column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
 #nav{
     grid-area: nav;
 }
