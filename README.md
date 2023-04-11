@@ -1,0 +1,2 @@
+El proyecto electrodomesticos trata sobre una tienda que vende productos electrdomesticos como celulares, tvs, pcs y heladeras.
+En este sitio web se uso html, css, boxmodeling, grid, git bash y bootstrap.
