@@ -85,7 +85,6 @@ text-decoration: underline;
     margin: 10px 2px;
 }
 
-
 /*index contenido principal*/
 .productosdestacados{
     width: 94%;
@@ -97,9 +96,7 @@ text-decoration: underline;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
-
 .productosdestacados-diva{
     width: 60%;
     height: 40%;
@@ -350,3 +347,293 @@ overflow: auto;
     grid-area: footer;
 }
 
+/*--------diseño responsive--------*/
+
+/*--celular--*/
+
+@media only screen and (max-width:450px){
+h1{
+    font-size: 1.6rem;
+}
+h2{
+    font-size: 1.2rem;
+}
+
+.contenedor{
+        width: 96%;
+        padding: 2px;
+        margin: 0px 6px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 5, auto;
+        grid-template-areas:
+        "nav"
+        "header"
+        "productos"
+        "aside"
+        "footer";
+}
+
+.encabezado__box--white{
+    width: 80%;
+    margin: 6px 2px;
+    justify-content: center;
+    border: solid black 0.6px;
+}
+
+/*cel nav*/
+.botonera{
+    width: 94%;
+    height: 80px;
+    margin: 6px 2px;
+    padding: 2px 2px;
+}
+.botonera a img{
+        width: 120px;
+        margin: 2px 4px;
+}
+.botonera ul{
+    /*display: inline-block;*/
+    margin: 2px 16px;
+    width: 40%;
+    display: flex;
+    border: solid 0.6px grey;
+    padding: 6px;
+    /*flex-wrap: wrap;*/
+    flex-direction: column;
+}
+
+.botonera ul li{
+        margin-right: 2px;
+        display: block;
+}
+
+.botonera ul li a{
+    font-size: 1rem;
+    margin: 2px 6px;
+}
+
+/*header foto cel*/
+.encabezado__imagen--fluid{
+        width: 94%;
+        margin: 6px 2px;
+}
+
+/*cel productos*/
+
+/*productos destacados*/
+.productosdestacados{
+    width: 94%;
+    height: 380px;
+    border: solid black 0.6px;
+    margin: 6px 2px;
+    padding: 10px 2px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.productosdestacados-diva{
+        width: 90%;
+        height: 340px;
+        flex-direction: column;
+        /*width: 80%;*/
+        padding: 4px 2px;
+        margin: 10px 2px;
+        display: flex;
+        justify-content: center;
+        /*border: solid grey 1px;*/
+
+}
+.productosdestacados-divb{
+   width: 40%;
+   height: 160px;
+   margin: 2px 40px;
+   border: solid black 0.6px;
+   padding: 2px 6px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center; 
+   text-align: center;
+}
+
+.productosdestacados img{
+    width: 40%;
+    height: 120px;
+    margin: 2px 40px;
+}
+
+/*cel productos novedades*/
+.novedades__articulo{
+width: 90%;
+height: 160px;
+padding: 2px 6px;
+margin: 6px 2px;
+border: solid black 0.6px;
+overflow: auto;
+}
+.novedades__tituloa{
+    font-size: 1.6rem;
+    color: black;
+    margin: 8px 2px;
+}
+.novedades__texto{
+    font-size: 1rem;
+    color: black;
+    margin: 8px 2px;
+}
+.novedades__articulo img{
+    width: 20%;
+    height: 80px;
+}
+
+/*aside*/
+.asidediv{
+    width: 94%;
+    height: 80px;
+    margin: 6px 2px;
+    border: solid black 0.6px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.asidedivb{
+    width: 20%;
+    margin: 20%;
+    margin: 6px;
+    border: solid black 0.6px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+}
+.asidediv img{
+    width: 20px;
+    height: 20px;
+}
+
+/*footer*/
+.pie{
+    height: 80px;
+    padding: 6px;
+    margin: 6px 2px;
+}
+
+
+.pie__titulo--md{
+    font-size: 1rem;
+}
+
+.pie__icon--sm{
+    width: 10%;
+    margin: 8px;
+    justify-content: space-around;
+}
+
+.contenedorb{
+    width: 96%;
+    margin: 0px 6px;
+    padding: 2px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5, auto;
+    grid-template-areas:
+        "nav"
+        "filtros"
+        "productos"
+        "aside"
+        "footer";
+}
+
+.filtrosdiv{
+    width: 94%;
+    height: 80px;
+    color: black;
+    padding: 6px;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    border: solid black 0.6px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 6px 2px;
+    align-items: center;
+
+}
+.filtrostexto{
+    margin: 6px;
+}
+
+/*aside*/
+.asidediv{
+    width: 90%;
+    height: 120px;
+    margin: 6px 2px;
+    border: solid black 0.6px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.asidedivb{
+    width: 20%;
+    margin: 20%;
+    margin: 6px;
+    border: solid black 0.6px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+}
+.asidediv img{
+    width: 20px;
+    height: 20px;
+}
+
+.maincontenedor{
+    width: 90%;
+    /*height: 760px;*/
+    padding: 6px;
+    border: solid black 0.6px;
+    margin: 6px 2px;
+    background-color: white;
+}
+.maincajaa{
+    width: 90%;
+    /*height: 720px;*/
+    margin: 2px;
+    border: solid black 0.6px;
+    padding: 2px;
+}
+.maincajab{
+    width: 80%;
+    /*height: 680px;*/
+    margin: 6px;
+    border: solid black 0.6px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*flex-wrap: wrap;*/
+}
+.maincajac{
+    width: 40%;
+    height: 140px;
+    margin: 6px 2px;
+    border: solid black 0.6px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.maintexto{
+    margin: 10px;
+}
+.productoimagen{
+    width: 40%;
+    height: 70px;
+    margin: 10px 30px;
+    border: solid black 0.6px;
+    justify-content: center;
+}
