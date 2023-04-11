@@ -30,6 +30,7 @@ h2{
     font-weight: 200;
 }
 
+/*encabezado*/
 .encabezado__box--white{
 /*width: 96%;*/
 text-align: center;
@@ -39,6 +40,7 @@ margin: 6px 6px;
 border: solid black 0.6px;
 }
 
+/*nav*/
 .botonera{
     width: 96%;
     background-color: #D1F2CA;
@@ -74,5 +76,12 @@ color: black;
 font-weight: 400;
 /*border: solid 1px grey;*/
 text-decoration: underline;
+}
+
+/*header*/
+.encabezado__imagen--fluid{
+    width: 100%;
+   border: solid 1px black;
+    margin: 10px 2px;
 }
 
