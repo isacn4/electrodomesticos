@@ -637,3 +637,43 @@ overflow: auto;
     border: solid black 0.6px;
     justify-content: center;
 }
+
+.contenedorc{
+        width: 96%;
+        padding: 2px;
+        margin: 0px 6px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3, auto;
+        grid-template-areas:
+        "nav"
+        "formulario"
+        "footer";
+}
+
+.contacto{
+    width: ;
+    background-color: ;
+    /*padding: ;
+    margin: ;*/
+    display: flex;
+    flex-direction: column;
+    /*justify-content: flex-start;/*
+    /*align-content: flex-start;*/
+}
+.formulariodiv{
+    /*border: solid 1px black;*/
+    margin: 10px 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.formulariodivb{
+    margin: 6px 2px;
+    display: flex;
+    flex-direction: column;
+}
+.formulariotexto{
+    margin: 6px 2px;
+}
+}
