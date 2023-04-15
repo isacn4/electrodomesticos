@@ -32,12 +32,16 @@ h2{
 
 /*encabezado*/
 .encabezado__box--white{
-/*width: 96%;*/
+width: 98%;
+/*height: 20px;*/
 text-align: center;
 background-color: white;
-padding: 4px 0px;
-margin: 6px 6px;
+padding: 2px;
+margin: 10px 2px;
 border: solid black 0.6px;
+}
+.encabezado__box--white p{
+    font-size: 1.2rem;
 }
 
 /*nav*/
@@ -282,8 +286,9 @@ overflow: auto;
     padding: 2px auto;
     display: grid;
     grid-template-columns: 80% 20%;
-    grid-template-rows: 4, auto;
+    grid-template-rows: 5, auto;
     grid-template-areas: 
+    "telyemail telyemail"
     "nav nav"
     "header header"
     "productos aside"
@@ -320,6 +325,9 @@ overflow: auto;
     "footer footer";
     column-gap: 10px;
     grid-row-gap: 10px;
+}
+#telyemail{
+    grid-area: telyemail;
 }
 
 #nav{
