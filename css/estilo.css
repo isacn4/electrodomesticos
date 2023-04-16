@@ -62,6 +62,7 @@ border: solid black 0.6px;
 .botonera a img{
     /*margin-right: 40px;*/
 }
+
 .botonera ul{
     display: inline-block;
     margin-top: 10px;
@@ -90,15 +91,26 @@ text-decoration: underline;
 
 /*header*/
 .encabezado__imagen--fluid{
-    width: 100%;
+    width: 98%;
    border: solid 1px black;
     margin: 10px 2px;
 }
+.carouselExample img{
+    height: 280px;
+}
 
 /*index contenido principal*/
+.productosdestacados-div{
+    width: 100%;
+    margin: 10px 2px;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .productosdestacados{
-    width: 94%;
-    /*height: 160px;*/
+    width: 68%;
+    height: 300px;
     padding: 20px;
     margin: 6px 2px;
     border: solid black 0.6px;
@@ -108,8 +120,8 @@ text-decoration: underline;
     align-items: center;
 }
 .productosdestacados-diva{
-    width: 60%;
-    height: 40%;
+    width: 80%;
+    height: 200px;
     padding: 10px;
     margin: 10px;
     border: solid black 1px;
@@ -119,8 +131,8 @@ text-decoration: underline;
     align-items: center;
 }
 .productosdestacados-divb{
-    width: 20%;
-    height: 10%;
+    width: 30%;
+    height: 160px;
     margin: 10px;
     border: solid black 1px;
     padding: 6px;
@@ -132,12 +144,15 @@ text-decoration: underline;
 
 }
 .productosdestacados-divb img{
-    width: 16px;
-    height: 16px;
+    width: 70px;
+    height: 80px;
 } 
+.productosdestacados-divb figcaption{
+    margin-left: 10px;
+}
 
 .novedades__articulo{
-width: 90%;
+width: 68%;
 height: 200px;
 padding: 40px;
 margin: 6px 2px;
