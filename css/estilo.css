@@ -94,9 +94,10 @@ text-decoration: underline;
     width: 98%;
    border: solid 1px black;
     margin: 10px 2px;
+
 }
 .carouselExample img{
-    height: 280px;
+    /*height: 280px;*/
 }
 
 /*index contenido principal*/
@@ -153,13 +154,14 @@ text-decoration: underline;
 }
 
 .novedades__articulo{
-width: 68%;
-height: 200px;
-padding: 40px;
-margin: 6px 2px;
-border: solid black 0.6px;
-overflow: auto;
+    width: 68%;
+    height: 200px;
+    padding: 20px;
+    margin: 6px 2px;
+    border: solid black 0.6px;
+    overflow: auto;
 }
+
 .novedades__tituloa{
     font-size: 2rem;
     color: black;
@@ -328,8 +330,9 @@ overflow: auto;
     padding: 2px auto;
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 3, auto;
+    grid-template-rows: 4, auto;
     grid-template-areas: 
+    "telyemail telyemail telyemail"
     "nav nav nav"
     "filtros productos aside"
     "footer footer footer";
@@ -343,8 +346,9 @@ overflow: auto;
     padding: 2px auto;
     display: grid;
     grid-template-columns: 80% 20%;
-    grid-template-rows: 3, auto;
+    grid-template-rows: 4, auto;
     grid-template-areas: 
+    "telyemail telyemail"
     "nav nav"
     "formulario formulario"
     "footer footer";
